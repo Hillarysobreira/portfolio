@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Roboto:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+/* height: 100%; */
+background-color: black;
+color: white;
+}
+
+.titulo-destaque{
+    color: #22D4FD ;
+}
+
+.apresentacao{
+padding: 5% 10%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap:82px
+}
+
+.apresentacao__conteudo{
+width: 50%;
+display: flex;
+flex-direction: column;
+gap:2.5rem
+}
+.apresentacao__conteudotitulo{
+font-size: 2.25rem;
+font-family: 'Krona One', sans-ser;
+}
+
+.apresentacao__conteudo_basico{
+font-size: 1.5rem;
+font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_links{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+gap:2rem;
+}
+
+.apresentacao_links_links{
+background-color: #22D4FD;
+width: 50%;
+text-align: center;
+border-radius: 1rem;
+font-size: 1.5rem;
+padding: 1.34375rem 0;
+text-decoration: none;
+color: black;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+
+}
+
+.apresentacao_links_subtitulos{
+font-family: 'Krona One', sans-ser;
+font-weight: 400;
+font-size: 1.5rem;
+
+}
+.apresentacao_links_links:hover{
+background-color: white;
+}
+
+.rodape{
+padding:  1.5rem;
+color: black;
+background-color: #22D4FD;
+font-size: 1.5rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+text-align: center;
+
+}
+
+.cabecalho_menu{
+display: flex;
+gap: 5rem;
+}
+.cabecalho{
+padding: 2% 0 0 15%;
+}
+.cabecalho_menu_link{
+font-size: 1.5rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+color: #22D4FD;
+text-decoration: none;
+
+
+}
+
+.aperesentacao__imagem{
+width: 50%;
+}
+
+
+@media(max-width:1200px){
+.apresentacao{
+flex-direction: column-reverse;
+}
+
+.cabecalho{
+padding: 10%;
+}
+
+.cabecalho_menu{
+justify-content:center;
+padding: 5%;
+}
+
+.apresentacao__conteudo{
+width: auto;
+}
+}
